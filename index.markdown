@@ -4,26 +4,33 @@ layout: page
 <style>
   table {
     width: 100%;
+    border-collapse: collapse;
+    border: none !important;
+    outline: none;
+    box-shadow: none;
   }
-  td {
+  table, tr, td, th {
     text-align: center;
+    border: none !important;
+    outline: none;
+    box-shadow: none;
+    background: transparent;
   }
 </style>
 <table>
   <tr>
-    <td><img src="/images/photo1.jpeg" alt="Photo" /></td>
-    <td><h1><b>PAVEL PERMINOV</b><br>SR. DEVOPS / SOFTWARE ENGINEER</h1></td>
+    <td><h1><b>PAVEL PERMINOV</b><br>STAFF ENGINEER</h1>
+    </td>
   </tr>
 </table>
+
 ## Summary
 
-Being platform-, language-, software-, hardware-, and human-agnostic, I can make an impact on any project and/or team starting day one. Apart from my experience as an engineer in various business and technological fields, I also bring exceptional analytical skills and creativity. I don’t take "that is hard" as an answer from myself.
+I am a Staff Engineer who builds reliable platforms and AI-enabled products from idea to production. I have delivered full-stack systems, cloud infrastructure, and observability at scale across AWS, GCP, and Azure, and recently led AI solution development with OpenAI, Vertex AI, and Ollama.
 
-I love working with people. I enjoy helping them gain experience and build confidence in themselves. From my perspective, experience gained through self-education and learning by doing is incredibly valuable. However, from my own experience, it’s also extremely demanding and far more challenging than having someone to guide you. That’s why I am passionate about mentoring and sharing knowledge to make the journey easier for others.
+I specialize in turning complex requirements into practical, secure, and automated systems. My work spans distributed architectures, CI/CD, Kubernetes, IaC, monitoring, and security hardening, with a focus on measurable outcomes like faster delivery, higher uptime, and reduced operational cost.
 
-In teamwork, I aim to absorb as many different perspectives as possible to help the team function effectively and avoid uncertainties or conflicts. I value open and honest communication and am never silent when I see room for improvement. Whether it’s resolving long-standing issues or implementing small fixes to improve a team’s day-to-day workflow, I persistently advocate for solutions until they are achieved.
-
-I believe that, in business, people are the only real asset because everything else is or was created by other people. I stand for the absolute and total equality of all individuals, as well as the power of our socially connected nature. Together, we create amazing things.
+I enjoy mentoring and cross-team collaboration, and I communicate directly to resolve ambiguity and drive improvements. I am hands-on across application, DevOps, and infrastructure layers, and I persist until the system and the team are in a better place.
 
 ## Toolset
 
@@ -74,6 +81,33 @@ I believe that, in business, people are the only real asset because everything e
 * Recruitment process management (job postings, interviews, skill and experience evaluation, test assessments design and evaluation).
 
 ## Experience
+
+**Senior AI Software Engineering Consultant** at [Unikie](https://www.unikie.com/)<br>
+January 2026 - Present
+
+* Played a role in enhancing AI solutions by developing ecosystems around cutting-edge technologies.
+* Built and optimized systems using OpenAI, Vertex AI, and Ollama to drive innovation.
+* Customized large language models for specific applications, improving user interactions and operational workflows.
+* Collaborated with diverse teams to ensure seamless integration of AI technologies into existing systems.
+
+**Senior Infrastructure Engineer** at [Unikie](https://www.unikie.com/)<br>
+December 2025 - December 2025 (1 month)
+
+* Ensured the stability, availability, and security of critical infrastructure environments.
+* Automated deployment processes with Ansible, reducing rollout times to 10-15 minutes.
+* Enhanced security practices across infrastructure and deployment pipelines, improving overall compliance.
+
+**Senior Software Engineering Consultant** at [Unikie](https://www.unikie.com/)<br>
+May 2025 - November 2025 (7 months)
+
+* Designed and developed a gateway aggregating multiple services under unified protocols.
+* Built unit and integration test suites increasing reliability.
+* Built a vulnerability detection system.
+* Created a custom rate limiter for platform endpoints.
+* Integrated Datadog for observability and performance monitoring.
+* Collaborated with multiple distributed teams to resolve system and architectural issues.
+* Identified critical vulnerabilities and ensured correct remediation through security channels.
+* Served as a key engineer capable of debugging the platform across infra, DevOps, and application layers.
 
 **Sr. Fullstack engineer** at [Bolt.works](https://www.bolt.works/)<br>
 September 2023 - January 2024 (5 month)
@@ -139,67 +173,5 @@ August 2008 - June 2018 (10 years)
 
 ## Education
 
-* Consistently learning something new. The latest being Rust and Pulumi.
-* Completed multiple courses on the best coding learning platform [hexlet.io](https://ru.hexlet.io/). Got into top 2%
-* Formal degree - Bachelor in  Financial management.
 * Continuously hacking various equipment to explore and enhance its functionality.
 * Learning through building my personal projects.
-
-## Personal Projects
-* [**NorrVPN**](https://github.com/s-r-engineer/norrvpn): Lightweight Linux CLI tool to replace the official NordVPN client for an open source user experience.
-* [**NorrDNS**](https://github.com/s-r-engineer/norrDNS): DNS server that resolves specifically crafted addresses into the best server provided by NordVPN.
-* [**NorrWGConfig**](https://github.com/s-r-engineer/norrWGConfig): tool to build wireguard configuration files for Nordvpn endpoints to use in any WireGuard client without the need in NordVPN client. Heavily relying on **NorrDNS** for current best server selection
-* [**NorrMTIK**](https://github.com/s-r-engineer/NordVPNForMikrotik): A set of scripts for Mikrotik routers to integrate NordVPN functionality, enabling quick server switching by country and easy inclusion or exclusion of devices from the VPN zone.
-* [**Mikrograf**](https://github.com/s-r-engineer/mikrograf): A Telegraf-compatible tool to collect comprehensive data from Mikrotik routers and switches.
-* **Beacon-9**: A navigation project to explore the physics of radio waves and innovative applications for positioning.
-* **Ultra-High Precision Positioning System**: Engineering a real-time system to calculate the target position with 1mm precision at a 1km distance for a laser based on its movement and relative positioning.
-* **Easy language learning**: Mobile app aimed to simplify language learning based on my own experience.
-* **TransPutning**: Client-server app that is allowing two remote clients to connect through the relay server while streams are heavily encrypted and disguised as standard HTTPS traffic.
-* [**~~Polar Reflow~~**](https://github.com/s-r-engineer/polar_reflow): Archived. It was a project to see and understand the data, gathered by Polar watches, to get deeper insights.
-
-## Recommendations
-
-### [Oscari Noppa, Senior programmer at Bolt.Works](https://www.linkedin.com/in/oskari-noppa-777873108/)
-Pavel is a skilled engineer who quickly becomes productive in new projects and environments. He brings a thoughtful
-approach to his work, identifying areas for improvement and suggesting optimizations. Pavel places a solid emphasis on
-testing and contributed to improving our integration test coverage. He also collaborated effectively with external
-partners to integrate their services into our TypeScript codebase.
-
-### [Antti Pudas, CTO at Millisecond oy](https://www.linkedin.com/in/anttipudas/)
-I am recommending Pavel Perminov for any position that requires a skilled software engineer and an effective development process manager. I had the pleasure of working with Pavel for over a year at Millisecond Oy, and during that time, I was consistently impressed by his ability to excel in multiple facets of our organization's software development efforts.<br>
-Pavel's technical expertise in software debugging and development is truly remarkable. He is proficient in various programming languages such as GO, JavaScript (React and React-Native), and Python. His deep understanding of these languages has allowed him to make significant contributions to our team, consistently delivering high-quality code and successfully debugging complex software issues.<br>
-Moreover, Pavel has demonstrated a strong grasp of DevOps principles and tools, including Kubernetes, Ansible, CI/CD, tests, and monitoring. His ability to integrate these tools into our development pipeline has significantly improved the efficiency and effectiveness of our team's workflow. Pavel has a keen understanding of the importance of automation and infrastructure management in modern software development, which has been instrumental in helping our team stay competitive.<br>
-In addition to his technical prowess, Pavel has shown exceptional talent in development process management. He has effectively designed and implemented development processes, ensuring smooth collaboration between our in-house team and subcontractors. His experience in human resources has enabled him to build and maintain a motivated and high-performing team. Pavel is not one to shy away from difficult conversations, as evidenced by his ability to engage in constructive debates with management to advocate for the best interests of our development team.<br>
-In summary, I wholeheartedly
-
-### [Eero Penttinen, Senior software developer at Millisecond oy](https://www.linkedin.com/in/eeropenttinen/)
-Pavel is very experienced in many areas with very deep knowledge in Go programming language, DevOps, Kubernetes, Docker
-and automating things. He raised the knowledge of DevOps, Kubernetes, Docker and automation to a completely different
-level when he joined our team in the past. He is also a fast learner and good team player and can grasp complex areas
-very quickly. Any team would greatly benefit of having a SW engineer like Pavel in their team.
-
-### [Terje Uurtomies, Project manager at Millisecond oy](https://www.linkedin.com/in/terjeuurtomies/)
-I have had the pleasure of working with Pavel Perminov for two years and during this time, I have been consistently impressed by his exceptional technical skills, work ethic, and dedication to the work. <br>
-As a Senior Software Engineer, Pavel has demonstrated a remarkable ability to tackle complex problems and deliver robust solutions that meet or exceed our clients requirements.<br>
-Pavel has exceptional technical skills and a deep understanding of software architecture.<br>
-He's proactive in seeking out opportunities to learn new technologies and best practices, and always up-to-date with the latest trends in the Software development industry.<br>
-He has always taken the data security of the systems he designed very seriously.<br>
-In summary, I wholeheartedly recommend Pavel for any software engineering position.
-
-### [Adam Peltoniemi, Section manager at Ericsson](https://www.linkedin.com/in/adam-peltoniemi-6260871/)
-As a developer in our product infrastructure team, Pavel was responsible for researching, architecting, implementing,
-and testing software features related to the infrastructure on top of which the rest of our product runs. He
-consistently delivered complex features on time and with high quality.<br><br>Pavel also showed a keen curiosity into our
-work procedures and was not afraid to challenge the status quo. He is excellent at identifying areas that can be
-improved upon, both within the product itself and in the policies surrounding its development, and is not afraid to
-speak up.
-
-### [Filip Granö, Infrastructure team lead at Curious AI](https://www.linkedin.com/in/filipgrano/)
-As the manager of the AI Infrastructure Team at Curious AI, I had the pleasure of working closely with Pavel for 1.5 years. During this time, Pavel assumed many important responsibilities and I always felt like he was someone I could rely on.<br>
-His key contributions included maintaining our research infrastructure and developing the next-generation Kubernetes-based infrastructure and tooling. Pavel's technical expertise, his ability to quickly understand the fundamental technical requirements, and his collaborative nature made him an invaluable team member.<br>
-Pavel is straightforward when discussing technical plans and solutions, which is a real asset. His honest input, backed by his expertise, helps improve projects and encourages open communication within the team.<br>
-I wholeheartedly recommend Pavel a highly skilled and dependable engineer. I hope to one day again work alongside him. He exceeded my expectations, and I feel confident he will exceed yours as well.
-
-### [Jessica Laiho, Executive assistant to CEO / HR Coordinator at Curious AI](https://www.linkedin.com/in/jessica-laiho-02882466/)
-Pavel was a real joy to work with. Polite, humorous and witty. Pavel is the kind of colleague who puts a smile on your face and takes his work seriously.
-recommend Pavel Perminow for any position that requires a highly skilled software engineer and a strategic development process manager. His unique combination of technical expertise and management abilities make him a valuable asset to any organization. I am confident that Pavel will continue to excel in his career and make a significant impact in the software engineering field.
