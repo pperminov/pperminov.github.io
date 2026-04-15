@@ -25,7 +25,7 @@ description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://blog.perminov.im
 #twitter_username: jekyllrb
-github_username:  s-r-engineer
+github_username:  pperminov
 #instagram_username: selfrepairengineer
 #youtube_username: "@selfrepairengineer"
 linkedin_username: pavel-perminov
