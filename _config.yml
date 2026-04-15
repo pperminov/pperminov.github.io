@@ -19,16 +19,16 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Pavel Perminov CV
-author: "(c) Pavel Perminov"
-email: start@perminov.im
+# author: "(c) Pavel Perminov"
+# email: start@perminov.im
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://blog.perminov.im
+url: https://cv.perminov.im
 #twitter_username: jekyllrb
-github_username:  pperminov
+# github_username:  pperminov
 #instagram_username: selfrepairengineer
 #youtube_username: "@selfrepairengineer"
-linkedin_username: pavel-perminov
+# linkedin_username: pavel-perminov
 # Build settings
 theme: minima
 plugins:

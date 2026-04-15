@@ -7,6 +7,7 @@
 
     {%- include google-analytics.html -%}
     {%- include header.html -%}
+    <button id="floating-pdf-print" type="button" aria-label="Download PDF">Download or print PDF</button>
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
@@ -14,7 +15,44 @@
       </div>
     </main>
 
-    {%- include footer.html -%}
+    <style>
+      #floating-pdf-print {
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        z-index: 9999;
+        border: none;
+        border-radius: 999px;
+        background: #1a5fd0;
+        color: #fff;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1;
+        padding: 14px 18px;
+        cursor: pointer;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      }
+
+      #floating-pdf-print:hover {
+        background: #174fb0;
+      }
+
+      @media print {
+        #floating-pdf-print {
+          display: none !important;
+          visibility: hidden !important;
+        }
+      }
+    </style>
+    <script>
+      (function () {
+        var btn = document.getElementById("floating-pdf-print");
+        if (!btn) return;
+        btn.addEventListener("click", function () {
+          window.print();
+        });
+      })();
+    </script>
 
   </body>
 
