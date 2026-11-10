@@ -6,7 +6,7 @@ layout: default
 
 **Staff / Principal Engineer**
 
-Helsinki, Finland | <start@perminov.im> | [GitHub](https://github.com/pperminov) | [LinkedIn](https://www.linkedin.com/in/pavel-perminov)
+Helsinki, Finland | [GitHub](https://github.com/pperminov) | [LinkedIn](https://www.linkedin.com/in/pavel-perminov)
 
 ## Summary
 
